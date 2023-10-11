@@ -13,10 +13,11 @@ body {
 }
 .body{
     text-align: center;
+    margin-top: 50px;
 }
 
-buttton {
-
+button {
+    width: 8%;
 }
 .footer {
     position: fixed;
