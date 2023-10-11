@@ -3,7 +3,7 @@ body {
 }
 .container {
     flex-direction: column;
-    display: flex;;
+    display: flex;
 }
 .header {
     background-color: #1F2937;
@@ -18,6 +18,10 @@ body {
 
 button {
     width: 8%;
+    padding: 20px 0;
+}
+#operands{
+    font-size: 80px;
 }
 .footer {
     position: fixed;
