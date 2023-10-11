@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+}
+.container {
+    flex-direction: column;
+    display: flex;;
+}
+.header {
+    background-color: #1F2937;
+    color: aliceblue;
+    padding: 0 100px;
+    text-align: center;
+}
+.footer {
+    position: sticky;
+    bottom: 0;
+    background-color: #1F2937;
+    width: 100%;
+    text-align: center;
+    color: white;
+    margin-left: 0;
+}
