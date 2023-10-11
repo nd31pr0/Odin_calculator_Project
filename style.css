@@ -11,8 +11,15 @@ body {
     padding: 0 100px;
     text-align: center;
 }
+.body{
+    text-align: center;
+}
+
+buttton {
+
+}
 .footer {
-    position: sticky;
+    position: fixed;
     bottom: 0;
     background-color: #1F2937;
     width: 100%;
