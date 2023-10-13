@@ -16,10 +16,12 @@ const operate = function (){
     let x = document.getElementById('result').value
 
     let y = eval(x);
-
-    document.getElementById('result').value = y
-
-    return y
+    if (!x){ return 0}
+    else {
+        document.getElementById('result').value = y
+        return y
+    }    
+    
 }
 
 const updateDisplay = function(val){
