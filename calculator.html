@@ -15,9 +15,7 @@
             <div class="input-field">
                 <table>
                     <tr id="input-field">
-            
                         <td colspan="5"><input type='text' size="38" placeholder="Please enter data to compute" id='result'></td>
-            
                     </tr>
                 </table>
             </div>
@@ -40,10 +38,10 @@
                 <button value="c" onclick="clearScreen()" id="clear">Clear</button>
             </div>
             <div id="row4" class="rows">
-                <button class="operands" id="plus" onclick="updateDisplay('+')">+</button>
-                <button class="operands" id="minus" onclick="updateDisplay('-')">-</button>
-                <button class="operands" id="multiply" onclick="updateDisplay('*')">*</button>
-                <button class="operands" id="divide" onclick="updateDisplay('/')">/</button>
+                <button class="operands" onclick="updateDisplay('+')">+</button>
+                <button class="operands" onclick="updateDisplay('-')">-</button>
+                <button class="operands" onclick="updateDisplay('*')">*</button>
+                <button class="operands" onclick="updateDisplay('/')">/</button>
             </div>
             <div id="row5" class="rows">
                 <button onclick="operate()" class="btn-shrink" id="equals">=</button>

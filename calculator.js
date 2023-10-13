@@ -15,7 +15,7 @@ const divide = function (a,b){
 const operate = function (){
     let x = document.getElementById('result').value
 
-    let y = eval(x).toFixed(2);
+    let y = eval(x).toFixed(3);
     if (!x){ 
         return 0
     }
