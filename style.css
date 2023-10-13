@@ -1,9 +1,11 @@
 body {
     margin: 0;
+    
 }
 .container {
     flex-direction: column;
     display: flex;
+    
 }
 .header {
     background-color: #1F2937;
@@ -14,9 +16,11 @@ body {
 .body{
     text-align: center;
     margin-top: 12%;
+    border: 1px solid sienna;
 }
-#input-field {
-    width: 200px;
+.input-field {
+    text-align: center;
+    padding-left: 33.5%;
 }
 
 button {
@@ -25,8 +29,21 @@ button {
     margin: 2px 0;
     border-radius: 4px;
 }
-#operands{
-    font-size: 80px;
+button:hover {
+    background-color: black;
+}
+.rows {
+    padding: 0 10px;
+}
+.operands{
+    font-size: 20px;
+    background-color: pink;
+}
+#clear {
+    background-color: red;
+}
+#equals {
+    background-color: aqua;
 }
 .footer {
     position: fixed;

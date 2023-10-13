@@ -27,3 +27,9 @@ const operate = function(a,b,c){
             break;
     }
 }
+const updateDisplay = function(e){
+
+}
+const clearScreen = function(){
+    document.getElementById("result").value = "";
+}

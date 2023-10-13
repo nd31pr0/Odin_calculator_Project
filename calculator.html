@@ -13,29 +13,38 @@
         </div>
         <div class="body">
             <div class="input-field">
-                <textarea id="txt-input" name="input field" rows="2" cols="66">
+                <table>
+
+                    <tr id="input-field">
+            
+                        <td colspan="10"><input type='text' id='result' class ='screen'></td>
+            
+                    </tr>
+            
+                </table>
+                <!-- <textarea id="txt-input" name="input field" rows="2" cols="66">
                     Display for both input and results
-                </textarea>
+                </textarea> -->
             </div>
-            <div class="row1">
+            <div id="row1" class="rows">
                 <button id="1">1</button>
                 <button id="2">2</button>
                 <button id="3">3</button>
                 <button id="4">4</button>
             </div>
-            <div class="row2">
+            <div id="row2" class="rows">
                 <button id="5">5</button>
                 <button id="6">6</button>
                 <button id="7">7</button>
                 <button id="8">8</button>
             </div>
-            <div class="row3">
+            <div id="row3" class="rows">
                 <button id="9">9</button>
                 <button id="0">0</button>
                 <button id="equals">=</button>
-                <button id="clear">Clear</button>
+                <button value="c" onclick="clearScreen()" id="clear">Clear</button>
             </div>
-            <div class="row4">
+            <div id="row4" class="rows">
                 <button class="operands" id="plus">+</button>
                 <button class="operands" id="minus">-</button>
                 <button class="operands" id="multiply">*</button>
