@@ -16,11 +16,11 @@ body {
 .body{
     text-align: center;
     margin-top: 12%;
-    border: 1px solid sienna;
 }
 .input-field {
     text-align: center;
-    padding-left: 33.5%;
+    padding-left: 33.7%;
+    font-weight: 24px;
 }
 
 button {
@@ -29,8 +29,11 @@ button {
     margin: 2px 0;
     border-radius: 4px;
 }
+.btn-shrink {
+    width: 33%;
+}
 button:hover {
-    background-color: black;
+    background-color: rgb(200, 195, 195);
 }
 .rows {
     padding: 0 10px;

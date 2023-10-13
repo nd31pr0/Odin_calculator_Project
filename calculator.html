@@ -14,17 +14,12 @@
         <div class="body">
             <div class="input-field">
                 <table>
-
                     <tr id="input-field">
             
-                        <td colspan="10"><input type='text' id='result' class ='screen'></td>
+                        <td colspan="10"><input type='text' id='result'></td>
             
                     </tr>
-            
                 </table>
-                <!-- <textarea id="txt-input" name="input field" rows="2" cols="66">
-                    Display for both input and results
-                </textarea> -->
             </div>
             <div id="row1" class="rows">
                 <button id="1" onclick="updateDisplay('1')">1</button>
@@ -41,7 +36,7 @@
             <div id="row3" class="rows">
                 <button onclick="updateDisplay('9')" id="9">9</button>
                 <button onclick="updateDisplay('0')" id="0">0</button>
-                <button onclick="operate()" id="equals">=</button>
+                <button onclick="updateDisplay('.')" id="point">.</button>
                 <button value="c" onclick="clearScreen()" id="clear">Clear</button>
             </div>
             <div id="row4" class="rows">
@@ -49,6 +44,9 @@
                 <button class="operands" id="minus" onclick="updateDisplay('-')">-</button>
                 <button class="operands" id="multiply" onclick="updateDisplay('*')">*</button>
                 <button class="operands" id="divide" onclick="updateDisplay('/')">/</button>
+            </div>
+            <div id="row5" class="rows">
+                <button onclick="operate()" class="btn-shrink" id="equals">=</button>
             </div>
 
         </div>  
