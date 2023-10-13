@@ -22,6 +22,10 @@ body {
     padding-left: 33.7%;
     font-weight: 24px;
 }
+#result {
+    height:50px;
+    font-size:15.3pt;
+}
 
 button {
     width: 8%;

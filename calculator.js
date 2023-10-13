@@ -15,10 +15,16 @@ const divide = function (a,b){
 const operate = function (){
     let x = document.getElementById('result').value
 
-    let y = eval(x);
-    if (!x){ return 0}
+    let y = eval(x).toFixed(2);
+    if (!x){ 
+        return 0
+    }
+    else if (y==Infinity){
+       document.getElementById('result').value = "Division by zero is not allowed"
+       return 0;
+     }
     else {
-        document.getElementById('result').value = y
+        document.getElementById('result').value = y;
         return y
     }    
     
